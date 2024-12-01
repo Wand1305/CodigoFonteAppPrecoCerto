@@ -1,0 +1,188 @@
+<resources>
+    <!-- Texto do título da app -->
+    <string name="app_title">PREÇO CERTO</string>
+
+    <!-- Texto do subtítulo da app -->
+    <string name="app_subtitle">Seu guia em tempo real</string>
+
+    <!-- Texto do campo "Usuário" -->
+    <string name="usuario_hint">Usuário</string>
+
+    <!-- Texto do campo "Senha" -->
+    <string name="senha_hint">Senha</string>
+
+    <!-- Texto do botão "Entrar" -->
+    <string name="enter_button">ENTRAR</string>
+
+    <!-- Texto do Cadastro -->
+    <string name="cadastre_se">CADASTRE-SE</string>
+
+    <!-- Texto para a tela de cadastro -->
+    <string name="title_activity_proxima">Próxima Atividade</string>
+
+    <!-- Texto para o link "Não tem conta? Cadastre-se" -->
+    <string name="cadastro_link">Não tem conta? <u>Cadastre-se</u></string>
+
+    <!-- Texto do botão "Criar Conta" -->
+    <string name="criar_conta_button">Criar Conta</string>
+
+    <!-- Texto do campo "Nome e Sobrenome" -->
+    <string name="nome_sobrenome_hint">Nome e Sobrenome</string>
+
+    <!-- Texto do campo "E-Mail" -->
+    <string name="email_hint">Digite seu e-mail</string>
+
+    <!-- Texto do campo "Data de Nascimento" -->
+    <string name="data_nascimento_hint">Data de Nascimento</string>
+
+    <!-- Texto do campo "Endereço" -->
+    <string name="endereco_hint">Endereço</string>
+
+    <!-- Texto do campo "Confirmar Senha" -->
+    <string name="confirmar_senha_hint">Confirmar Senha</string>
+
+    <!-- Texto de confirmação de conta criada -->
+    <string name="conta_criada_message">Conta criada com sucesso!</string>
+
+    <!-- Texto do campo "Titulo Cadastro" -->
+    <string name="title_activity_cadastro">Cadastro</string>
+
+    <!-- Texto da opção "Procurar" -->
+    <string name="Procurar">Digite para buscar</string>
+
+    <!-- Texto do botão "Buscar" -->
+    <string name="Buscar">Buscar</string>
+
+    <!-- Texto da opção "Verdurão" -->
+    <string name="verdurao">Verdurão</string>
+
+    <!-- Texto da opção "Ver Preços" -->
+    <string name="Ver_Preços">Ver Preços</string>
+
+    <!-- Texto da opção "Publicar" -->
+    <string name="Publicar">Publicar</string>
+
+    <!-- Texto da opção "Lista" -->
+    <string name="Lista">Lista</string>
+
+    <!-- Texto da opção "Inicio" -->
+    <string name="Inicio">Inicio</string>
+
+    <!-- Texto da opção "Favoritos" -->
+    <string name="Favoritos">Favoritos</string>
+
+    <!-- Texto da opção "Perfil" -->
+    <string name="Perfil">Perfil</string>
+
+    <!-- Texto do botão "Trocar Senha" -->
+    <string name="trocar_senha_button">Trocar Senha</string>
+
+    <!-- Texto do campo "Nome do Usuário" -->
+    <string name="usuario_nome">Nome do Usuário</string>
+
+    <!-- Texto do campo "E-mail do Usuário" -->
+    <string name="usuario_email">E-mail do Usuário</string>
+
+    <!-- Texto para a Data de Nascimento do Usuário -->
+    <string name="usuario_data_nascimento">Data de Nascimento</string>
+
+    <!-- Texto para o Endereço do Usuário -->
+    <string name="usuario_endereco">Endereço do Usuário</string>
+
+    <!-- Texto da opção "Ícone de mercado" -->
+    <string name="ic_mercado_description">Ícone de mercado</string>
+
+    <!-- Texto da opção "Título da Atividade de Início" -->
+    <string name="title_activity_inicio">Título da Atividade de Início</string>
+
+    <!-- Texto da opção "Ícone Tela de Login" -->
+    <string name="ic_tela_login">Tela de Login</string>
+
+    <!-- Texto da opção "Novo Mercado" -->
+    <string name="title_activity_novo_mercado">NovoMercadoActivity</string>
+
+    <!-- Texto da opção "Novo Produto" -->
+    <string name="title_activity_novo_produto">NovoProdutoActivity</string>
+
+    <!-- Texto da opção "Nome do Mercado" -->
+    <string name="Nome_do_Mercado">Nome do Mercado</string>
+
+    <!-- Texto da opção "Endereço do Mercado" -->
+    <string name="Endereço_do_Mercado">Endereço do Mercado</string>
+
+    <!-- Texto da opção "Salvar Mercado" -->
+    <string name="Salvar_Mercado">Salvar Mercado</string>
+
+    <!-- Texto da opção "Produto" -->
+    <string name="Produto">Produto</string>
+
+    <!-- Texto da opção "Marca" -->
+    <string name="Marca">Marca</string>
+
+    <!-- Texto da opção "Tamanho" -->
+    <string name="Tamanho">Tamanho</string>
+
+    <!-- Texto da opção "Preço" -->
+    <string name="Preço">Preço</string>
+
+    <!-- Texto da opção "Salvar Produto" -->
+    <string name="Salvar_Produto">Salvar Produto</string>
+
+    <!-- Texto do título do diálogo -->
+    <string name="trocar_senha_titulo">Trocar Senha</string>
+
+    <!-- Texto do campo "Senha Atual" -->
+    <string name="senha_atual_hint">Senha Atual</string>
+
+    <!-- Texto do campo "Nova Senha" -->
+    <string name="nova_senha_hint">Nova Senha</string>
+
+    <!-- Texto do campo "Confirmar Nova Senha" -->
+    <string name="confirmar_nova_senha_hint">Confirmar Nova Senha</string>
+
+    <!-- Texto do botão "Confirmar" -->
+    <string name="confirmar_button">Confirmar</string>
+
+    <!-- Texto do botão "Cancelar" -->
+    <string name="cancelar_button">Cancelar</string>
+
+    <!-- Texto  "Trocar Senha" -->
+    <string name="title_activity_trocar_senha">Trocar Senha</string>
+
+    <!-- Texto  "Perfil" -->
+    <string name="title_activity_perfil">Perfil</string>
+
+    <!-- Títulos -->
+    <string name="usuario_nome_titulo">NOME:</string>
+    <string name="usuario_data_nascimento_titulo">DATA DE NASCIMENTO:</string>
+    <string name="usuario_endereco_titulo">ENDEREÇO:</string>
+    <string name="usuario_email_titulo">E-MAIL:</string>
+
+    <!-- Texto  "Titulo Perfil" -->
+    <string name="title_meus_dados">Meus Dados</string>
+
+    <!-- Texto  "Lembrar-me" -->
+    <string name="Lembrar_me">Lembrar-me</string>
+
+    <!-- Título do Pop-up -->
+    <string name="insira_email_titulo">Valide sua identidade</string>
+
+    <!-- Texto de dica no campo de e-mail -->
+    <string name="digite_email_hint">Digite seu e-mail</string>
+
+    <!-- Texto do botão -->
+    <string name="buscar_dados_botao">Buscar meus dados</string>
+
+    <!-- Texto do botão Buscar-->
+    <string name="buscar">Buscar</string>
+
+    <string name="app_name">PrecoCerto</string>
+    <string name="dialog_title">Escolha o que deseja adicionar</string>
+    <string-array name="dialog_options">
+        <item>Novo Mercado</item>
+        <item>Novo Produto</item>
+    </string-array>
+
+    <string name="Configurações">Configurações</string>
+
+</resources>

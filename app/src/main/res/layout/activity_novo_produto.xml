@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título da Tela -->
+    <TextView
+        android:id="@+id/tvTitulonovoproduto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novo Produto"
+        android:textSize="22sp"
+        android:textColor="#474343"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- EditText para Produto -->
+    <EditText
+        android:id="@+id/edtProduto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitulonovoproduto"
+        android:hint="@string/Produto"
+        android:inputType="text"
+        android:autofillHints="product"
+        android:minHeight="48dp"
+        android:layout_marginBottom="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="true" />
+
+    <!-- EditText para Marca -->
+    <EditText
+        android:id="@+id/edtMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Marca"
+        android:inputType="text"
+        android:autofillHints="organization"
+        android:minHeight="48dp"
+        android:layout_marginBottom="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="true" />
+
+    <!-- EditText para Tamanho -->
+    <EditText
+        android:id="@+id/edtTamanho"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Tamanho"
+        android:inputType="text"
+        android:autofillHints="other"
+        android:minHeight="48dp"
+        android:layout_marginBottom="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="true" />
+
+    <!-- EditText para Preço -->
+    <EditText
+        android:id="@+id/edtPreco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Preço"
+        android:inputType="numberDecimal"
+        android:autofillHints="price"
+        android:minHeight="48dp"
+        android:layout_marginBottom="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="true" />
+
+    <!-- ScrollView para conteúdo rolável -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <!-- Spinner para Mercado -->
+    <Spinner
+        android:id="@+id/spinnerMercado"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="8dp"
+        android:spinnerMode="dropdown"
+        android:dropDownHeight="150dp" />
+
+    </ScrollView>
+
+    <!-- View para empurrar o botão para baixo -->
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- Botão Salvar Produto -->
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Salvar_Produto"
+        android:textColor="#474343"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="48dp" />
+</LinearLayout>

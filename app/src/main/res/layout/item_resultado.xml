@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_fundo" >
+
+    <!-- item_resultado.xml -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_marginBottom="8dp" >
+
+        <TextView
+            android:id="@+id/textViewProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Produto: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textViewMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marca: "
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textViewTamanho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tamanho: "
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textViewPreco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preço: "
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textViewMercado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mercado: "
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/textViewEndereco"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Endereço: "
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

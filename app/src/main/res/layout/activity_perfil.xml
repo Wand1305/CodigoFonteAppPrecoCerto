@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="start"
+    android:background="@drawable/gradient_fundo">
+
+    <!-- Título da Tela -->
+    <TextView
+        android:id="@+id/tvTituloTrocarSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_meus_dados"
+        android:textSize="22sp"
+        android:textColor="#474343"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"/>
+
+    <!-- Nome do Usuário -->
+    <TextView
+        android:id="@+id/tvUsuarioNomeTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario_nome_titulo"
+        android:textColor="#474343"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"
+        android:gravity="start"
+        android:layout_marginTop="30dp" />
+
+    <TextView
+        android:id="@+id/tvUsuarioNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario_nome"
+        android:textColor="#474343"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        android:gravity="start" />
+
+    <!-- Data de Nascimento -->
+    <TextView
+        android:id="@+id/tvUsuarioDataNascimentoTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario_data_nascimento_titulo"
+        android:textColor="#474343"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/tvUsuarioDataNascimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario_data_nascimento"
+        android:textColor="#474343"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/tvUsuarioEnderecoTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario_endereco_titulo"
+        android:textColor="#474343"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/tvUsuarioEndereco"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario_endereco"
+        android:textColor="#474343"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        android:gravity="start" />
+
+    <!-- E-mail -->
+    <TextView
+        android:id="@+id/tvUsuarioEmailTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario_email_titulo"
+        android:textColor="#474343"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:paddingBottom="4dp"
+        android:gravity="start" />
+
+    <TextView
+        android:id="@+id/tvUsuarioEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/usuario_email"
+        android:textColor="#474343"
+        android:textSize="16sp"
+        android:paddingBottom="16dp"
+        android:gravity="start" />
+
+    <!-- Container para os botões -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp" >
+
+    <!-- Botão Trocar Senha -->
+    <Button
+        android:id="@+id/btnTrocarSenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/trocar_senha_button"
+        android:textColor="#474343"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="@drawable/button_background"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/btnExcluirConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Excluir Conta"
+        android:textColor="#474343"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="@drawable/button_background"
+        android:layout_marginStart="8dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.precocerto"
+    android:installLocation="auto"
+    tools:ignore="ExtraText">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_iconelaucher"
+        android:roundIcon="@drawable/ic_iconelaucher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.App"
+        tools:ignore="ExtraText"
+        tools:targetApi="31">
+
+        <!-- Atividade Principal - MainActivity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_title"
+            android:theme="@style/Theme.App">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Outras atividades -->
+        <activity
+            android:name=".NovoProdutoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_novo_produto"
+            android:theme="@style/Theme.App" />
+
+        <activity
+            android:name=".NovoMercadoActivity"
+            android:exported="false"
+            android:label="@string/title_activity_novo_mercado"
+            android:theme="@style/Theme.App" />
+
+        <activity
+            android:name=".CadastroActivity"
+            android:exported="false"
+            android:label="@string/title_activity_cadastro"
+            android:theme="@style/Theme.App" />
+
+        <activity
+            android:name=".InicioActivity"
+            android:exported="true"
+            android:windowSoftInputMode="stateHidden|adjustResize"
+            android:label="@string/title_activity_inicio" />
+
+        <activity
+            android:name=".PerfilActivity"
+            android:exported="true"
+            android:label="@string/title_activity_perfil" />
+
+        <!-- Nova Atividade: TrocarSenhaActivity -->
+        <activity
+            android:name=".TrocarSenhaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_trocar_senha"
+            android:theme="@style/Theme.App" />
+
+        <!-- Resultado da busca -->
+        <activity android:name=".ResultadosPesquisaActivity" />
+
+        <!-- Declarando a ConfirmacaoExclusaoActivity -->
+        <activity android:name=".ConfirmacaoExclusaoActivity" />
+
+    </application>
+
+</manifest>

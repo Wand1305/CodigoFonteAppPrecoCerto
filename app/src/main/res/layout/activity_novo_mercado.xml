@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Título da Tela -->
+    <TextView
+        android:id="@+id/tvTitulonovomercado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Novo Produto"
+        android:textSize="22sp"
+        android:textColor="#474343"
+        android:layout_marginBottom="24dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/etNomeMercado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitulonovomercado"
+        android:hint="@string/Nome_do_Mercado"
+        android:inputType="text"
+        android:autofillHints="organization"
+        android:minHeight="48dp"
+        android:maxWidth="320dp"
+        android:layout_marginBottom="8dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="true" />
+
+    <EditText
+        android:id="@+id/etEnderecoMercado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Endereço_do_Mercado"
+        android:inputType="text"
+        android:autofillHints="address"
+        android:minHeight="48dp"
+        android:maxWidth="320dp"
+        android:layout_marginBottom="16dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:cursorVisible="true" />
+
+    <Button
+        android:id="@+id/btnSalvarMercado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Salvar_Mercado"
+        android:textColor="#474343"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="48dp"/>
+</LinearLayout>
